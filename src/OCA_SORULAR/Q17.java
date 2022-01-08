@@ -16,5 +16,17 @@ public class Q17 {
   Kullanıcının  girdigi satır sayısı kadar * ile ters yarım piramid sekli yazdıran bir program create ediniz.
 
   */
+
+        for (int i = 5; i >=1 ; i--) {
+            for (int j = 1; j <=i ; j++) {
+                System.out.print("*"+" ");
+
+            }
+            System.out.println();
+
+        }
+
+
+
     }
 }
